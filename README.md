@@ -33,6 +33,8 @@ rsync -av --delete --checksum --exclude='/.*' ~/ /tmp/backup/
 
 ### Решение
 
+#### Скрипт
+
 ```bash
 #!/bin/bash
 
@@ -52,5 +54,6 @@ fi
 ```
 
 ![Скрин1](2-1.png)
+
 ![Скрин1](2-2.png)
 
